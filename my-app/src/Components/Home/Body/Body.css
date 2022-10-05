@@ -1,0 +1,23 @@
+.main-body1{
+    background-image: url('https://razor.com/wp-content/uploads/2022/09/EcoSmart_Cargo_Product_0155-scaled.jpg');
+     /* */
+    /*  */
+    /* 
+  
+   
+  
+    min-width: 1000px;
+   
+    
+    width: 100%; */
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+        width: 100vw;
+        box-sizing: border-box;
+        margin-top: -45px; 
+        display: block;
+        position: relative;
+        background-position-y: 50%; 
+        background-position-x: 50%; 
+}

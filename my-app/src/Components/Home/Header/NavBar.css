@@ -1,0 +1,79 @@
+.nav-logo{
+   height: 40px;
+    cursor: pointer; 
+    
+}
+
+.nav-logo:hover {
+
+}
+
+.NavbarItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000000;
+    background-color: #fff;
+    /* position: fixed; */
+    left: 0px;
+    
+}
+.nav-menu-link {
+    color: #000;
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-family: 'Gilroy Black', Arial,  sans-serif;
+    font-weight:900;
+    font-size: 1rem;
+    padding: 10px .1rem 55px;
+    transition-duration:0.5s ;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    position: relative;
+
+}
+.nav-menu-link:hover {
+    background-color:#f8f0f1;
+    /* transition: all .2s linear; */
+    /* color: #fff;  */
+}
+
+
+nav{
+    display: flex;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    /* width: 70vw; */
+    justify-content: end;
+   
+}
+.dropDownIcon {
+  color: red;
+}
+.right_nav{
+    width: 400px;
+    right: -70px;
+    float: right;
+    padding: 3rem 0 0 5rem;
+    height: 95px;
+    box-sizing: border-box;
+    position: relative;
+    top: -23px;
+    background-image: url('https://razor.com/wp-content/themes/razor/assets/images/header-right.png');
+}
+.right_icon{
+    margin-right: 90px;
+    margin-left: -30px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.nav-flag {
+    margin-left: -30px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
